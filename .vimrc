@@ -171,6 +171,6 @@ augroup AlpacaTags
   autocmd!
   autocmd BufWritePost Gemfile AlpacaTagsBundle
   autocmd BufEnter * AlpacaTagsSet
-  autocmd BufWritePost * AlpacaTagsUpdate ruby
+  autocmd BufWritePost *.rb AlpacaTagsUpdate ruby
 augroup END
 "}}}
