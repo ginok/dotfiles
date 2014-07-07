@@ -1,0 +1,6 @@
+# 左右にウィンドウを分割する
+split-window -h
+
+# 一番初めのpaneを選択
+select-pane -t 0
+setw -g mode-mouse on
